@@ -5,6 +5,8 @@ taxonomy:
     category: blog
     tag: [blends, materials]
 ---
+# Dented CHROME!
+
 ![My test][5]
 
 [**dented_chrome.blend**][6]
