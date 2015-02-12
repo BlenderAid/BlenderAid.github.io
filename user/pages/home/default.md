@@ -6,11 +6,4 @@ content:
 ---
 
 Welcome to **Blender Aid!**
-# You cheesehead!
-
-take it easy 222
-
-# 444hgfkjgfkgf
-asdfasdfas
-
-ttttttttttt
+# You cheesehe
