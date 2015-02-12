@@ -6,5 +6,11 @@ content:
 ---
 
 Welcome to **Blender Aid!**
-# You cheesehe efefefef
-LLLLLLL
+
+It's basically my personal collection of Blender methods and workflows for animated film production.
+
+Enjoy!
+
+Manu Järvinen
+[@manujarvinen](https://twitter.com/manujarvinen)
+[manujarvinen.com](http://www.manujarvinen.com)
