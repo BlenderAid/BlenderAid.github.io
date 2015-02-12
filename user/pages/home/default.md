@@ -7,10 +7,10 @@ content:
 
 Welcome to **Blender Aid!**
 
-It's basically my personal collection of Blender methods and workflows for animated film production.
+This is basically my personal collection of Blender methods and workflows for animated film production.
 
 Enjoy!
 
-Manu Järvinen
-[@manujarvinen](https://twitter.com/manujarvinen)
-[manujarvinen.com](http://www.manujarvinen.com)
+Manu Järvinen  
+[@manujarvinen](https://twitter.com/manujarvinen)  
+[manujarvinen.com](http://www.manujarvinen.com)  
