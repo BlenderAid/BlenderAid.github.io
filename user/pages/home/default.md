@@ -1,13 +1,15 @@
 ---
 title: Home
 content:
-    items: 
+    items:
         @taxonomy.category: blog
 ---
 
 Welcome to **Blender Aid!**
 
 This is basically my personal collection of Blender methods and workflows for animated film production.
+
+Of course!
 
 Enjoy!
 
