@@ -1,6 +1,6 @@
 ---
 title: Use different color pickers
-date: 17:34 02/16/2015 
+date: 2015-02-16 23:37
 taxonomy:
     category: blog
     tag: [tips, shading]
