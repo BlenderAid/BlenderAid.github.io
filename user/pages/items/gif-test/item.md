@@ -1,9 +1,9 @@
 ---
 title: GIF test
-date: 17:34 07/04/2014 
+date: 2015-02-17 13:00
 taxonomy:
     category: blog
-    tag: [tips, shading]
+    tag: [shading]
 ---
 
 # Gif TEST!
