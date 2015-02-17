@@ -7,9 +7,7 @@ content:
 
 Welcome to **Blender Aid!**
 
-This is basically my personal collection of Blender methods and workflows for animated film production.
-
-Of course!
+This is my personal collection of Blender methods and workflows for an animated film production.
 
 Enjoy!
 
