@@ -8,3 +8,6 @@ taxonomy:
 Use Ctrl-click to easily collapse other panels
 
 Use Shift+click to pin them (to make them visible in other tabs for example)
+
+
+![Image inserted by Atom editor package auto-host-markdown-image](http://i.imgur.com/dzaYXQB.png)
