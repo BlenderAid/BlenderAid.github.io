@@ -9,4 +9,5 @@ If you forget to save your image texture from Image Editor (which often happens 
 
 For example a temporary version of the texture could be saved to System’s Temp folder every time Ctrl+S is pressed.
 
-![Imgur](http://i.imgur.com/nmKJcAr.png)
+
+![Image inserted by Atom editor package auto-host-markdown-image](http://i.imgur.com/386CYyo.png)
