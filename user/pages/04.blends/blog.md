@@ -3,7 +3,7 @@ title: .Blends
 
 content:
     items:
-        @taxonomy.tag: blends
+        @taxonomy.tag: Blends
     order:
         by: date
         dir: desc
