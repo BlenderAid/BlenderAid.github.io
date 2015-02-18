@@ -1,9 +1,9 @@
 ---
 title: Different world colors for background and reflections
-date: 17:34 07/04/2014 
+date: 2014-04-07 17:34
 taxonomy:
-    category: blog
-    tag: [tips, shading]
+    category: Blog
+    tag: [Shading]
 ---
 
 ![Different world colors for background and reflections][1]

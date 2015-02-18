@@ -2,7 +2,7 @@
 title: Home
 content:
     items:
-        @taxonomy.category: blog
+        @taxonomy.category: Blog
 ---
 
 Welcome to **Blender Aid!**

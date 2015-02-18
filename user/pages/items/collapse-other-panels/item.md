@@ -2,8 +2,8 @@
 title: Collapse other panels
 date: 2015-02-17 11:19
 taxonomy:
-    category: blog
-    tag: [tips, shading]
+    category: Blog
+    tag: [Shading]
 ---
 Use Ctrl-click to easily collapse other panels
 

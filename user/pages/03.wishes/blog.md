@@ -3,7 +3,7 @@ title: Wishes
 
 content:
     items:
-        @taxonomy.tag: wishes
+        @taxonomy.tag: Wishes
     order:
         by: date
         dir: desc

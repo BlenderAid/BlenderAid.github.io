@@ -1,12 +1,10 @@
 ---
 title: Dented chrome
-date: 17:34 07/04/2014 
+date: 2014-04-07 17:34
 taxonomy:
-    category: blog
-    tag: [blends, materials]
+    category: Blog
+    tag: [Blends, Materials]
 ---
-# Dented CHROME!
-
 ![My test][5]
 
 [**dented_chrome.blend**][6]

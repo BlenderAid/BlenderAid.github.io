@@ -3,7 +3,7 @@ title: Shading
 
 content:
     items:
-        @taxonomy.tag: shading
+        @taxonomy.tag: Shading
     order:
         by: date
         dir: desc

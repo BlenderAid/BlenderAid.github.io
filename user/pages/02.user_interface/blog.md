@@ -3,7 +3,7 @@ title: User Interface
 
 content:
     items:
-        @taxonomy.tag: user_interface
+        @taxonomy.tag: User Interface
     order:
         by: date
         dir: desc
