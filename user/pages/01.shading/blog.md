@@ -16,5 +16,4 @@ feed:
 
 pagination: true
 ---
-#  
-## *Shading*
+# Shading

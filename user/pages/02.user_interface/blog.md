@@ -16,5 +16,4 @@ feed:
 
 pagination: true
 ---
-#
-## *User Interface*
+# User Interface
