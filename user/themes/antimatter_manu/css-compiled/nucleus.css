@@ -241,7 +241,7 @@ th {
 
 .content {
   margin: 0.625rem;
-  padding: 0.438rem; }
+  padding: 0.938rem; }
 
 @media only all and (max-width: 47.938em) {
   body [class*="size-"] {
@@ -561,7 +561,7 @@ cite {
 
 pre {
   margin: 1.7rem 0;
-  padding: 0.438rem; }
+  padding: 0.938rem; }
 
 code {
   vertical-align: bottom; }
@@ -577,7 +577,7 @@ hr {
 
 fieldset {
   border: 0;
-  padding: 0.438rem;
+  padding: 0.938rem;
   margin: 0 0 1.7rem 0; }
 
 input,
