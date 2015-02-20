@@ -1,4 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
 $main_color: green;
 
 body {
-    background: $main_color; }
+    background: $main_color;
+    font-family: 'Slabo 27px';
+}
