@@ -250,12 +250,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/filp/whoops.git",
-            "reference": "01f84f8121a882b100cb153a9b92056439a34c5b"
+            "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/filp/whoops/zipball/01f84f8121a882b100cb153a9b92056439a34c5b",
-            "reference": "01f84f8121a882b100cb153a9b92056439a34c5b",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/dcce91553e2e056857f1ea844949e9a8a71b613d",
+            "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d",
             "shasum": ""
         },
         "require": {
@@ -264,7 +264,7 @@
         "require-dev": {
             "mockery/mockery": "0.9.*"
         },
-        "time": "2015-01-22 15:11:11",
+        "time": "2015-02-17 15:50:31",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -608,12 +608,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/rockettheme/toolbox",
-            "reference": "6cc68e21087f812ec66d3259d22f527f2667f51b"
+            "reference": "7b1d4bd71db85e87c653b697f0b1e06603e1f7e0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/6cc68e21087f812ec66d3259d22f527f2667f51b",
-            "reference": "6cc68e21087f812ec66d3259d22f527f2667f51b",
+            "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/7b1d4bd71db85e87c653b697f0b1e06603e1f7e0",
+            "reference": "7b1d4bd71db85e87c653b697f0b1e06603e1f7e0",
             "shasum": ""
         },
         "require": {
@@ -626,7 +626,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.0.*"
         },
-        "time": "2015-01-22 10:27:27",
+        "time": "2015-02-17 12:52:19",
         "type": "library",
         "installation-source": "source",
         "autoload": {

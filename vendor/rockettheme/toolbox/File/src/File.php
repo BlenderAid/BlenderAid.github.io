@@ -41,6 +41,11 @@ class File implements FileInterface
     protected $content;
 
     /**
+     * @var array
+     */
+    protected $settings = [];
+
+    /**
      * @var array|File[]
      */
     static protected $instances = array();
@@ -61,6 +66,31 @@ class File implements FileInterface
             static::$instances[$filename]->init($filename);
         }
         return static::$instances[$filename];
+    }
+
+    /**
+     * Set/get settings.
+     *
+     * @param array $settings
+     * @return array
+     */
+    public function settings(array $settings)
+    {
+        $this->settings = $settings;
+
+        return $this->settings;
+    }
+
+    /**
+     * Get setting.
+     *
+     * @param string $setting
+     * @param mixed $default
+     * @return mixed
+     */
+    public function setting($setting, $default = null)
+    {
+        return isset($this->settings[$setting]) ? $this->settings[$setting] : $default;
     }
 
     /**
@@ -332,11 +362,22 @@ class File implements FileInterface
     /**
      * @param  string  $dir
      * @return bool
+     * @throws \RuntimeException
      * @internal
      */
     protected function mkdir($dir)
     {
-        return is_dir($dir) || mkdir($dir, 0777, true);
+        if (!is_dir($dir)) {
+            $success = @mkdir($dir, 0777, true);
+
+            if (!$success) {
+                $error = error_get_last();
+
+                throw new \RuntimeException("Creating directory '{$dir}' failed on error {$error['message']}");
+            }
+        }
+
+        return true;
     }
 
     /**
