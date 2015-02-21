@@ -34,15 +34,15 @@ b, strong, label, th {
 
 #container {
   min-height: 100%;
-  position: relative; }
+  position: relative;
+  width: 50rem;
+  margin: 0 auto; }
 
 .fullwidth #body {
   padding-left: 0;
   padding-right: 0; }
 
 #body {
-  width: 50rem;
-  margin: 0 auto;
   background: #F2F1EF;
   padding-top: 8rem;
   padding-bottom: 11rem; }
