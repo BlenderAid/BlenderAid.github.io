@@ -25,9 +25,9 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 a {
-  color: #ABB7B7; }
+  color: red; }
   a:hover {
-    color: #748888; }
+    color: #990000; }
 
 b, strong, label, th {
   font-weight: 600; }
@@ -94,11 +94,11 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
     #header.scrolled #logo a, #header.scrolled #navbar span {
       color: #888 !important; }
     #header.scrolled #navbar a {
-      color: #ABB7B7 !important; }
+      color: red !important; }
       #header.scrolled #navbar a:hover {
-        color: #748888 !important; }
+        color: #990000 !important; }
     #header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
-      background-color: #ABB7B7 !important; }
+      background-color: red !important; }
   #header > .grid, #header #logo, #header #navbar {
     height: 100%; }
   #header #logo {
@@ -133,7 +133,7 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
               height: 1px;
               bottom: 0;
               left: 0;
-              background-color: #ABB7B7;
+              background-color: red;
               visibility: hidden;
               -webkit-transform: scaleX(0);
               -moz-transform: scaleX(0);
@@ -188,7 +188,7 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
               #header #navbar ul.navigation li:hover li a:before, #header #navbar ul.navigation li:hover li a:after {
                 display: none; }
             #header #navbar ul.navigation li:hover li.active > a {
-              background: #ABB7B7;
+              background: red;
               color: #F2F1EF; }
         @media only all and (max-width: 59.938em) {
           #header #navbar ul.navigation {
@@ -226,9 +226,9 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
   .header-image #header a:before, .header-image #header a:after {
     background-color: rgba(255, 255, 255, 0.7) !important; }
   .header-image #header #navbar ul.navigation ul li a {
-    color: #ABB7B7; }
+    color: red; }
     .header-image #header #navbar ul.navigation ul li a:hover {
-      color: #748888; }
+      color: #990000; }
 
 #footer {
   position: absolute;
@@ -415,12 +415,12 @@ hr {
   padding: 25px;
   float: left;
   clear: both;
-  background: #ABB7B7;
+  background: red;
   color: #F2F1EF; }
 
 .label {
   vertical-align: middle;
-  background: #ABB7B7;
+  background: red;
   border-radius: 100%;
   color: #F2F1EF;
   height: 1rem;
@@ -442,8 +442,8 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   textarea:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, select[multiple=multiple]:hover {
     border-color: #c4c4c4; }
   textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
-    border-color: #ABB7B7;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(157, 171, 171, 0.7); }
+    border-color: red;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(230, 0, 0, 0.7); }
 
 .form-field .required {
   color: #F3443F;
@@ -471,14 +471,14 @@ td {
 
 .button {
   background: #F2F1EF;
-  color: #ABB7B7;
-  border: 1px solid #ABB7B7;
+  color: red;
+  border: 1px solid red;
   border-radius: 3px; }
   .button:hover {
-    background: #ABB7B7;
+    background: red;
     color: #F2F1EF; }
   .button:active {
-    box-shadow: 0 1px 0 #8a9b9b; }
+    box-shadow: 0 1px 0 #c20000; }
 
 .button-secondary {
   background: #F2F1EF;
@@ -521,7 +521,7 @@ td {
 
 .bullet-icon {
   float: left;
-  background: #ABB7B7;
+  background: red;
   padding: 0.875rem;
   width: 3.5rem;
   height: 3.5rem;
@@ -531,13 +531,13 @@ td {
   text-align: center; }
 
 .bullet-icon-1 {
-  background: #ABB7B7; }
+  background: red; }
 
 .bullet-icon-2 {
-  background: #abb7b3; }
+  background: #ff0055; }
 
 .bullet-icon-3 {
-  background: #b7b5ab; }
+  background: #002bff; }
 
 .bullet-content {
   margin-left: 4.55rem; }
@@ -620,7 +620,7 @@ td {
       .list-item .list-blog-header h4 a {
         color: #888; }
         .list-item .list-blog-header h4 a:hover {
-          color: #ABB7B7; }
+          color: red; }
     .list-item .list-blog-header img {
       display: block;
       margin-top: 1rem;
@@ -645,7 +645,7 @@ td {
 .tags a {
   display: inline-block;
   font-size: 0.8rem;
-  border: 1px solid #ABB7B7;
+  border: 1px solid red;
   border-radius: 3px;
   padding: 0.1rem 0.4rem;
   margin-bottom: 0.2rem;
@@ -823,7 +823,7 @@ ul.pagination {
         width: 100%; } }
     .modular .features .feature i.fa {
       font-size: 2rem;
-      color: #ABB7B7; }
+      color: red; }
     .modular .features .feature h4 {
       margin: 0;
       font-size: 1.1rem; }
