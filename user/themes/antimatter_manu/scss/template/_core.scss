@@ -41,7 +41,9 @@ b, strong {
 #body {
 	@extend .default-animation;
 	@extend .padding-horiz;
-	
+
+		width: 50rem;
+		margin: 0 auto;
 	background: $page-bg;
 	padding-top: $header-height + $padding-vert;
 	padding-bottom: $footer-height + $padding-vert + 2rem;
@@ -55,4 +57,3 @@ b, strong {
 .right {
   float: right;
 }
-
