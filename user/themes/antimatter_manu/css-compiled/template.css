@@ -20,7 +20,7 @@ html, body {
 
 body {
   background: #F2F1EF;
-  color: #888;
+  color: red;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -89,10 +89,10 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
     background-color: rgba(245, 245, 245, 0.8) !important;
     box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.015) !important; }
     #header.scrolled #logo h3 {
-      color: #888 !important;
+      color: red !important;
       font-size: 1.6rem !important; }
     #header.scrolled #logo a, #header.scrolled #navbar span {
-      color: #888 !important; }
+      color: red !important; }
     #header.scrolled #navbar a {
       color: red !important; }
       #header.scrolled #navbar a:hover {
@@ -109,7 +109,7 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
       margin: 0;
       text-transform: uppercase; }
       #header #logo h3 a {
-        color: #888; }
+        color: red; }
   #header #navbar {
     font-size: 0.9rem; }
     #header #navbar ul {
@@ -565,9 +565,9 @@ td {
           border-bottom: 0; }
       #panel .navigation li.active > a {
         background: #fff;
-        color: #888; }
+        color: red; }
         #panel .navigation li.active > a:hover {
-          color: #888; }
+          color: red; }
       #panel .navigation li:first-child {
         border-top: 1px solid #3d3d3d; }
       #panel .navigation li ul {
@@ -618,7 +618,7 @@ td {
     .list-item .list-blog-header h4 {
       margin-bottom: 0.5rem; }
       .list-item .list-blog-header h4 a {
-        color: #888; }
+        color: red; }
         .list-item .list-blog-header h4 a:hover {
           color: red; }
     .list-item .list-blog-header img {
@@ -732,7 +732,7 @@ ul.pagination {
   margin-top: -2.5rem;
   font-weight: bold;
   font-size: 1rem;
-  color: #bbbbbb; }
+  color: #ff6666; }
   @media only all and (max-width: 47.938em) {
     .simplesearch .search-details {
       float: none;
