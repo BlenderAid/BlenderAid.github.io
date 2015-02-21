@@ -3,7 +3,7 @@
 <head>
 {% block head %}
     <meta charset="utf-8" />
-    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    <title>Blender Aid</title>
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicon.png" />
@@ -41,7 +41,7 @@
         <header id="header">
 
                 <div id="logo">
-                    <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
+                    <h3><a href="{{ base_url_absolute }}">{{ config.site.title }}</a></h3>
                 </div>
                 <div id="navbar">
                     {% block header_extra %}{% endblock %}
