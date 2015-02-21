@@ -232,18 +232,18 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
 
 #footer {
   position: absolute;
-  background: #D6D6D6;
+  background: #888;
   height: 6rem;
   right: 0;
   bottom: 0;
   left: 0;
-  color: #EBEBEB;
+  color: #ccc;
   text-align: center; }
   #footer a {
-    color: #F2F2F2;
+    color: #eee;
     font-weight: 300; }
   #footer a:hover {
-    color: #FAFAFA;
+    color: #fff;
     font-weight: 300; }
   #footer .totop {
     position: absolute;
@@ -254,7 +254,7 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
     #footer .totop span {
       font-size: 1.7rem;
       line-height: 2.5rem;
-      background: #D6D6D6;
+      background: #888;
       width: 3rem;
       height: 2rem;
       border-radius: 3px;
