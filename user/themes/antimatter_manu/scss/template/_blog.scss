@@ -61,13 +61,10 @@
             }
         }
 
-        img {
-            display: block;
-            margin-top: 1rem;
-            // manu-addition:
-            border-radius: $border-radius-post;
-            text-align: center;
-        }
+
+    }
+    img {
+        @extend .manu-post-item-img-style;
     }
 
     .list-blog-date {
@@ -100,11 +97,13 @@
     a {
         display: inline-block;
         font-size: $core-font-size - 0.2rem;
-        border: 1px solid $core-accent;
-        border-radius: $border-radius;
+        color: $tag-text-color;
+        border: 1px solid $tag-border-color;
+        border-radius: $tag-border-radius;
+        background-color: $tag-bg-color;
         padding: 0.1rem 0.4rem;
         margin-bottom: 0.2rem;
-        #text-transform: uppercase;
+        text-transform: uppercase;
     }
 }
 

@@ -26,6 +26,11 @@ $post-border-color:   #E9E4E1;
 $border-radius-post: 5px;
 $padding-post: 2rem;
 
+$tag-bg-color:      #E7E5E1;
+$tag-border-color:  darken($tag-bg-color, 2%);
+$tag-text-color:    darken($tag-bg-color, 25%);
+$tag-border-radius: 3px;
+
 .manu-content-width {
   max-width: 60rem;
   margin: 0 auto;
@@ -39,6 +44,17 @@ $padding-post: 2rem;
   padding: $padding-post;
   border-radius: $border-radius-post;
   background-color: $post-bg-color;
+}
+
+.manu-post-item-img-style {
+display:    block;
+//margin: 0 auto;
+margin-top: 1rem;
+text-align: center;
+border:     1px solid ;
+-webkit-border-radius: $border-radius-post;
+-moz-border-radius: $border-radius-post;
+border-radius: $border-radius-post;
 }
 
 
