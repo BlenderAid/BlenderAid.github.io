@@ -9,14 +9,16 @@
 	height: $header-height;
 	// manu addition:
 	background-color: rgba(231,229,225,1.0);
-	box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.015);
+	border-bottom: 1px solid rgba(255,255,255,0.350);
+	//box-shadow: 0 0.05rem 1rem rgba(0,0,0, 1.0);
 
 	// scroll based changes
 	&.scrolled {
 		height: $header-height - 2rem;
 		// manu addition:
 		background-color: rgba(231,229,225,0.95) !important;
-		box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.015) !important;
+		border-bottom: 1px solid rgba(255,255,255,0.350);
+		//box-shadow: 0 0.05rem 1rem rgba(80,60,20,0.35) !important;
 
 		#logo h3 {
 			color: $core-text !important;
