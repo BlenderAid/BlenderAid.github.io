@@ -7,6 +7,6 @@ taxonomy:
 ---
 For reflective materials something is needed to be reflected. Common and nice looking method is to use an HDR image. However, sometimes a simple gradient node can look nice in reflections. You can sort of 'paint' your reflections with it in real-time, which is cool :)
 
-![Gradient node reflections][2]
+[![Gradient node reflections][2]][2]
 
-  [2]: http://i.stack.imgur.com/CR1Nw.jpg
+  [2]: http://i.imgur.com/seoQeRN.jpg

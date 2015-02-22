@@ -7,6 +7,6 @@ taxonomy:
 ---
 When modeling an object, it's good to test how the light will bounce off the surface. For example, adding some double-beveling easily leads to nicely highlighted rims for some metallic objects:
 
-![Don't skimp on detail][4]
+[![Don't skimp on detail][4]][4]
 
-  [4]: http://i.stack.imgur.com/xYb6z.jpg
+  [4]: http://i.imgur.com/9T6h2tj.jpg

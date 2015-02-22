@@ -5,4 +5,4 @@ taxonomy:
     category: Blog
     tag: [Shading]
 ---
-![Imgur](http://i.imgur.com/z3QKlLp.png)
+[![Imgur](http://i.imgur.com/PP59DNa.png)](http://i.imgur.com/PP59DNa.png)

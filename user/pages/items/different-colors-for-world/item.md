@@ -6,6 +6,6 @@ taxonomy:
     tag: [Shading]
 ---
 
-![Different world colors for background and reflections][1]
+[![img][1]][1]
 
-  [1]: http://i.stack.imgur.com/IxhMl.jpg
+  [1]: http://i.imgur.com/ywMuoSl.jpg
