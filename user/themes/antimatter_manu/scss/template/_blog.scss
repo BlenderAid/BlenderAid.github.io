@@ -43,14 +43,8 @@
 
 // List Blog Item
 .list-item {
+    @extend .manu-post-item-style;
 
-    margin-bottom: $padding-vert;
-    // manu-addition:
-    border: 1px solid $post-border-color;
-    padding: $padding-post;
-    border-radius: $border-radius-post;
-    background-color: $post-bg-color;
-    //
 
     &:last-child {
         border-bottom: 0;

@@ -7,18 +7,12 @@
 	z-index: 10;
 	width: 100%;
 	height: $header-height;
-	// manu addition:
-	background-color: rgba(231,229,225,1.0);
-	border-bottom: 1px solid rgba(255,255,255,0.250);
-	//box-shadow: 0 0.05rem 1rem rgba(0,0,0, 1.0);
+	@extend .header-colors;
 
 	// scroll based changes
 	&.scrolled {
 		height: $header-height - 2rem;
-		// manu addition:
-		background-color: rgba(231,229,225,0.95) !important;
-		border-bottom: 1px solid rgba(255,255,255,0.250);
-		//box-shadow: 0 0.05rem 1rem rgba(80,60,20,0.35) !important;
+		@extend .header-colors-scrolled;
 
 		#logo h3 {
 			color: $core-text !important;
@@ -41,10 +35,13 @@
 	// set heights for vertical centering
 	> .grid, #logo, #navbar {
 		height: 100%;
+		//border: 1px solid red;
+		//width: 400px;
 	}
 
 	#logo {
 		float: left;
+		//padding-left: 20rem;
 		h3 {
 			@extend .default-animation;
 			@extend %vertical-align;
@@ -61,7 +58,7 @@
 	#navbar {
 		font-size: $core-font-size - 0.1rem;
 		// manu-addition:
-		max-width: 60rem;
+		max-width: 45rem;
 		margin: 0 auto;
 		ul {
 

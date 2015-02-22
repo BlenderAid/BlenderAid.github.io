@@ -1,3 +1,18 @@
+.manu-post-item-style {
+  margin-bottom: 3rem;
+  border: 1px solid #E9E4E1;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #F6F3F1; }
+
+.header-colors {
+  background-color: #e7e5e1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+
+.header-colors-scrolled {
+  background-color: rgba(231, 229, 225, 0.95) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+
 .text-left {
   text-align: left !important; }
 

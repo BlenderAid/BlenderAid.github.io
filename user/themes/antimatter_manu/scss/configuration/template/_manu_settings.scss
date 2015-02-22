@@ -1,8 +1,36 @@
+
+
 // Posts
+
 $post-bg-color:       #F6F3F1;
 $post-border-color:   #E9E4E1;
+$border-radius-post: 5px;
+$padding-post: 2rem;
+
+.manu-post-item-style {
+  margin-bottom: $padding-vert;
+  border: 1px solid $post-border-color;
+  padding: $padding-post;
+  border-radius: $border-radius-post;
+  background-color: $post-bg-color;
+}
+
+// Header
+
+.header-colors {
+  background-color: rgba(231,229,225,1.0);
+  border-bottom: 1px solid rgba(255,255,255,0.250);
+  //box-shadow: 0 0.05rem 1rem rgba(0,0,0, 1.0);
+}
+
+.header-colors-scrolled {
+  background-color: rgba(231,229,225,0.95) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.250);
+  //box-shadow: 0 0.05rem 1rem rgba(80,60,20,0.35) !important;
+}
 
 // Footer
+
 $footer-bg:						#E7E5E1;
 $footer-text:					darken($footer-bg, 25%);
 $footer-a: 	      		darken($footer-bg, 35%);
