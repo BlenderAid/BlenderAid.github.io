@@ -5,9 +5,9 @@ taxonomy:
     category: Blog
     tag: [Wishes]
 ---
-If you forget to save your image texture from Image Editor (which often happens when painting textures) before quitting or crashing Blender, it would be awesome to have some sort of method for retrieving the unsaved textures.
+Often times when you paint textures in Blender, you forget that in addition to saving the .blend file, **you need to specifically save the image texture as well** from Image Editor - otherwise you lose everything you've painted when closing Blender.
 
-For example a temporary version of the texture could be saved to System’s Temp folder every time Ctrl+S is pressed.
+It would be awesome to have some sort of method for retrieving the unsaved textures. For example a temporary version of the texture could be saved to System’s Temp folder every time Ctrl+S is pressed.
 
 
-![Image inserted by Atom editor package auto-host-markdown-image](http://i.imgur.com/386CYyo.png)
+[![img](http://i.imgur.com/syPfa4J.png)](http://i.imgur.com/syPfa4J.png)
