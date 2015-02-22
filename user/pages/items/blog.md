@@ -1,8 +1,6 @@
 ---
-title: Home
+title:
 blog_url: blog
 content:
     items: @self.children
 ---
-
-# Home
