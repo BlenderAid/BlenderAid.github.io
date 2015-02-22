@@ -170,9 +170,9 @@
 			font-size: 1.8rem;
 			cursor: pointer;
 			float: right;
-			//@include breakpoint(desktop-only) {
-			//	display: inline-block;
-			//}
+			@include breakpoint(desktop-only) {
+				display: inline-block;
+			}
 		}
 
 	}

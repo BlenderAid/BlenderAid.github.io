@@ -1,6 +1,6 @@
 <div class="list-item">
 
-    <div class="list-blog-header" style="border-color:red;">
+    <div class="list-blog-header">
 <!--
         <span class="list-blog-date">
             <span>{{ page.date|date("d") }}</span>
@@ -9,14 +9,14 @@
 -->
 
 
-        {% if page.header.link %}
-            <h4>
+<!--  {% if page.header.link %}
+          <h4>
                 {% if page.header.continue_link is not sameas(false) %}
                 <a href="{{ page.url }}"><i class="fa fa-angle-double-right"></i></a>
                 {% endif %}
-                <a href="{{ page.header.link }}">{{ page.title }}</a>
+                  <a href="{{ page.header.link }}">{{ page.title }}</a>
             </h4>
-        {% else %}
+        {% else %}-->
             <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
         {% endif %}
 
