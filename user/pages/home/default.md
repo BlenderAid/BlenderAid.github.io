@@ -5,9 +5,9 @@ content:
         @taxonomy.category: Blog
 ---
 
-Welcome to **Blender Aid!**
+Welcome to Blender Aid.
 
-This is my personal collection of Blender methods and workflows for an animated film production.
+This is my personal collection of Blender hints and workflows for an animated film production.
 
 Enjoy!
 
