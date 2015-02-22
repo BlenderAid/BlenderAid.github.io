@@ -21,7 +21,15 @@ $page-bg:						#ECEAE7;
 
 // Header
 $header-text: 					#FFFFFF;
+// Posts
+$post-bg-color:       #F6F3F1;
+$post-border-color:   red;
 
+// Footer
+$footer-bg:						#E7E5E1;
+$footer-text:					darken($footer-bg, 25%);
+$footer-a: 	      		darken($footer-bg, 35%);
+$footer-a-hover:			darken($footer-bg, 55%);
 // Nav
 $navbar-text: 					#75879A;
 $navbar-bg: 					#FFFFFF;
@@ -45,16 +53,6 @@ $sidebar-text:					#aaa;
 $bottom-bg:						#f7f7f7;
 $bottom-text:					$core-text;
 
-//manu-addition:
-// Posts
-$post-bg-color:       #F6F3F1;
-$post-border-color:   #E7E6E3;
-
-// Footer
-$footer-bg:						#E7E5E1;
-$footer-text:					darken($footer-bg, 25%);
-$footer-a: 	      		darken($footer-bg, 35%);
-$footer-a-hover:			darken($footer-bg, 55%);
 
 $rule-color: 					#F0F2F4;
 $code-text:						#c7254e;

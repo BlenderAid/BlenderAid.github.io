@@ -616,7 +616,7 @@ td {
 
 .list-item {
   margin-bottom: 3rem;
-  border: 1px solid #E7E6E3;
+  border: 1px solid red;
   padding: 2rem;
   border-radius: 5px;
   background-color: #F6F3F1; }
