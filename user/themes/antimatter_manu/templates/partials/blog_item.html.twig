@@ -1,12 +1,14 @@
 <div class="list-item">
 
-    <div class="list-blog-header">
+    <div class="list-blog-header" style="border-color:red;">
 <!--
         <span class="list-blog-date">
             <span>{{ page.date|date("d") }}</span>
             <em>{{ page.date|date("M") }}</em>
         </span>
 -->
+
+
         {% if page.header.link %}
             <h4>
                 {% if page.header.continue_link is not sameas(false) %}
@@ -17,6 +19,32 @@
         {% else %}
             <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
         {% endif %}
+
+
+
+    </div>
+
+    <div class="list-blog-padding">
+
+
+    {% if page.header.continue_link is sameas(false) %}
+        <p>{{ page.content }}</p>
+        {% if not truncate %}
+        {% set show_prev_next = true %}
+        {% endif %}
+    {% elseif truncate and page.summary != page.content %}
+        <p>{{ page.summary }}</p>
+        <p><a href="{{ page.url }}">Continue Reading...</a></p>
+    {% elseif truncate %}
+
+
+
+      {{ page.content }}
+    {% else %}
+        <p>{{ page.content }}</p>
+        {% set show_prev_next = true %}
+    {% endif %}
+
 
         {% if page.taxonomy.tag %}
         <span class="tags">
@@ -30,39 +58,5 @@
         {% else %}
             {{ page.media.images|first.cropZoom(900,300).html }}
         {% endif %}
-
-    </div>
-
-    <div class="list-blog-padding">
-
-    {% if page.header.continue_link is sameas(false) %}
-        <p>{{ page.content }}</p>
-        {% if not truncate %}
-        {% set show_prev_next = true %}
-        {% endif %}
-    {% elseif truncate and page.summary != page.content %}
-        <p>{{ page.summary }}</p>
-        <p><a href="{{ page.url }}">Continue Reading...</a></p>
-    {% elseif truncate %}
-        <p>{{ page.content|truncate(550) }}</p>
-        <p><a href="{{ page.url }}">Continue Reading...</a></p>
-    {% else %}
-        <p>{{ page.content }}</p>
-        {% set show_prev_next = true %}
-    {% endif %}
-
-    {% if show_prev_next %}
-
-        <p class="prev-next">
-            {% if not page.isFirst %}
-                <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> Next Post</a>
-            {% endif %}
-
-            {% if not page.isLast %}
-                <a class="button" href="{{ page.prevSibling.url }}">Previous Post <i class="fa fa-chevron-right"></i></a>
-            {% endif %}
-        </p>
-    {% endif %}
-
-    </div>
-</div>
+      </div>
+  </div>

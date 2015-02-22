@@ -1,11 +1,4 @@
 @import url(//fonts.googleapis.com/css?family=Roboto:100,300);
-.manu-post-item-style, .list-item {
-  margin-bottom: 3rem;
-  border: 1px solid #E9E4E1;
-  padding: 2rem;
-  border-radius: 5px;
-  background-color: #F6F3F1; }
-
 .header-colors, #header {
   background-color: #e7e5e1;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
@@ -13,6 +6,35 @@
 .header-colors-scrolled, #header.scrolled {
   background-color: rgba(231, 229, 225, 0.95) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+
+.manu-content-width, .content-width {
+  max-width: 60rem;
+  margin: 0 auto; }
+
+.manu-post-item-style, .list-item {
+  margin-bottom: 3rem;
+  border: 1px solid #E9E4E1;
+  border-bottom: 3px solid #E9E4E1;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #F6F3F1; }
+
+.footer-upper-text {
+  line-height: 4rem;
+  margin: 0 auto; }
+
+.footer-lower-text {
+  width: 39rem;
+  margin: 0 auto;
+  border-top: 1px solid rgba(174, 168, 154, 0.2);
+  font-size: 0.65rem;
+  color: rgba(174, 168, 154, 0.8) !important; }
+  .footer-lower-text a {
+    color: rgba(152, 143, 126, 0.5) !important;
+    font-weight: 300; }
+  .footer-lower-text a:hover {
+    color: rgba(98, 91, 78, 0.3) !important;
+    font-weight: 300; }
 
 #header #logo h3, #header #navbar ul.navigation, #header #navbar .panel-activation, #footer p {
   position: relative;
@@ -241,6 +263,7 @@ url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconso
       color: #748888; }
 
 #footer {
+  font-size: 0.9rem;
   position: absolute;
   background: #E7E5E1;
   height: 6rem;
@@ -617,10 +640,6 @@ td {
         margin-bottom: 2.5rem; } }
   .blog-header + .blog-content {
     padding-top: 3rem; }
-
-.content-width {
-  max-width: 60rem;
-  margin: 0 auto; }
 
 .list-item:last-child {
   border-bottom: 0; }

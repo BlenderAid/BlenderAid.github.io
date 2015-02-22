@@ -1,20 +1,5 @@
 
 
-// Posts
-
-$post-bg-color:       #F6F3F1;
-$post-border-color:   #E9E4E1;
-$border-radius-post: 5px;
-$padding-post: 2rem;
-
-.manu-post-item-style {
-  margin-bottom: $padding-vert;
-  border: 1px solid $post-border-color;
-  padding: $padding-post;
-  border-radius: $border-radius-post;
-  background-color: $post-bg-color;
-}
-
 // Header
 
 .header-colors {
@@ -29,9 +14,66 @@ $padding-post: 2rem;
   //box-shadow: 0 0.05rem 1rem rgba(80,60,20,0.35) !important;
 }
 
+
+
+
+
+
+// Posts
+
+$post-bg-color:       #F6F3F1;
+$post-border-color:   #E9E4E1;
+$border-radius-post: 5px;
+$padding-post: 2rem;
+
+.manu-content-width {
+  max-width: 60rem;
+  margin: 0 auto;
+  //border: 2px solid red;
+}
+
+.manu-post-item-style {
+  margin-bottom: $padding-vert;
+  border: 1px solid $post-border-color;
+  border-bottom: 3px solid $post-border-color;
+  padding: $padding-post;
+  border-radius: $border-radius-post;
+  background-color: $post-bg-color;
+}
+
+
+
+
+
 // Footer
 
 $footer-bg:						#E7E5E1;
 $footer-text:					darken($footer-bg, 25%);
 $footer-a: 	      		darken($footer-bg, 35%);
 $footer-a-hover:			darken($footer-bg, 55%);
+
+.footer-upper-text {
+  line-height: 4rem;
+  margin: 0 auto;
+  //border: 1px solid red;
+}
+
+.footer-lower-text {
+  //border: 1px solid red;
+  width: 39rem;
+  margin: 0 auto;
+  border-top: 1px solid rgba($footer-text, .2);
+
+  font-size: 0.65rem;
+  color: rgba($footer-text, .8) !important;
+
+  a {
+    color: rgba($footer-a, .5) !important;
+    font-weight: 300;
+  }
+
+  a:hover {
+    color: rgba($footer-a-hover, .3) !important;
+    font-weight: 300;
+  }
+}

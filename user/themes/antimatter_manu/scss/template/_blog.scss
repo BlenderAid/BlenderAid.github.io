@@ -36,9 +36,7 @@
 // Post width
 .content-width {
 
-    max-width: 60rem;
-    margin: 0 auto;
-    //border: 2px solid red;
+    @extend .manu-content-width
 }
 
 // List Blog Item
