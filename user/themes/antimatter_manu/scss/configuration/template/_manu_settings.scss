@@ -26,11 +26,6 @@ $post-border-color:   #E9E4E1;
 $border-radius-post: 5px;
 $padding-post: 2rem;
 
-$tag-bg-color:      #E7E5E1;
-$tag-border-color:  darken($tag-bg-color, 2%);
-$tag-text-color:    darken($tag-bg-color, 25%);
-$tag-border-radius: 3px;
-
 .manu-content-width {
   max-width: 60rem;
   margin: 0 auto;
@@ -38,12 +33,14 @@ $tag-border-radius: 3px;
 }
 
 .manu-post-item-style {
-  margin-bottom: $padding-vert;
-  border: 1px solid $post-border-color;
-  border-bottom: 3px solid $post-border-color;
-  padding: $padding-post;
-  border-radius: $border-radius-post;
+  border-top-left-radius: $border-radius-post;
+  border-top-right-radius: $border-radius-post;
+  border-top: 1px solid $post-border-color;
+  border-left: 1px solid $post-border-color;
+  border-right: 1px solid $post-border-color;
   background-color: $post-bg-color;
+  padding: $padding-post;
+  padding-bottom: -2.5rem;
 }
 
 .manu-post-item-img-style {
@@ -57,6 +54,46 @@ border:     1px solid ;
 border-radius: $border-radius-post;
 }
 
+.manu-post-item-tag-footer {
+  border-bottom: 3px solid $post-border-color;
+  border-left: 1px solid $post-border-color;
+  border-right: 1px solid $post-border-color;
+  height: 5.7rem;
+  background-color: mix($post-bg-color, $page-bg, $weight:60%);
+  margin-bottom: $padding-vert;
+  padding: $padding-post;
+  border-bottom-left-radius: $border-radius-post;
+  border-bottom-right-radius: $border-radius-post;
+}
+
+
+
+
+// Blog post tags
+
+$tag-bg-color:      darken($page-bg, 0.5%);
+$tag-border-color:  darken($tag-bg-color, 4%);
+$tag-text-color:    darken($tag-bg-color, 35%);
+$tag-border-radius: 6px;
+
+.manu-tags {
+    a {
+      display: inline-block;
+      font-size: $core-font-size - 0.2rem;
+      color: $tag-text-color;
+      border: 1px solid $tag-border-color;
+      border-radius: $tag-border-radius;
+      background-color: $tag-bg-color;
+      padding: 0.1rem 0.4rem;
+      margin-bottom: 0.2rem;
+      text-transform: uppercase;
+    }
+    a:hover {
+      color: lighten($tag-text-color, 15%);
+      background-color: lighten($tag-bg-color, 3%);
+      border: 1px solid lighten($tag-border-color, 2%);
+    }
+}
 
 
 

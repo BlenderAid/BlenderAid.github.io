@@ -45,7 +45,7 @@
 
 
     &:last-child {
-        border-bottom: 0;
+        //border-bottom: 0;
     }
 
     .list-blog-header {
@@ -94,17 +94,7 @@
 
 // Tags
 .tags {
-    a {
-        display: inline-block;
-        font-size: $core-font-size - 0.2rem;
-        color: $tag-text-color;
-        border: 1px solid $tag-border-color;
-        border-radius: $tag-border-radius;
-        background-color: $tag-bg-color;
-        padding: 0.1rem 0.4rem;
-        margin-bottom: 0.2rem;
-        text-transform: uppercase;
-    }
+    @extend .manu-tags;
 }
 
 // Archives & Related-Pages
