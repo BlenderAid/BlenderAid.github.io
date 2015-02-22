@@ -46,7 +46,7 @@
 
 body [class*="size-"] {
 	@include breakpoint(mobile-only) {
-		@include flex(0 100%);
+		@include flex(0 30%);
 	}
 }
 

@@ -7,13 +7,15 @@
 	z-index: 10;
 	width: 100%;
 	height: $header-height;
-	background-color: rgba(245,245,245,0.80);
+	// manu addition:
+	background-color: rgba(231,229,225,1.0);
 	box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.015);
 
 	// scroll based changes
 	&.scrolled {
 		height: $header-height - 2rem;
-		background-color: rgba(245,245,245,0.80) !important;
+		// manu addition:
+		background-color: rgba(231,229,225,0.95) !important;
 		box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.015) !important;
 
 		#logo h3 {

@@ -35,6 +35,7 @@ $feature-bg:					#fff;
 
 // Main Body
 $main-bg:						#f7f7f7;
+$base-bg-color:			#red;
 $body-border:					darken($main-bg, 5%);
 
 // Sidebar
@@ -44,11 +45,16 @@ $sidebar-text:					#aaa;
 $bottom-bg:						#f7f7f7;
 $bottom-text:					$core-text;
 
+//manu-addition:
+// Posts
+$post-bg-color:       #F6F3F1;
+$post-border-color:   #E7E6E3;
+
 // Footer
-$footer-bg:						#888;
-$footer-text:					#ccc;
-$footer-a-hover:			#fff;
-$footer-a: 	      		#eee;
+$footer-bg:						#E7E5E1;
+$footer-text:					darken($footer-bg, 25%);
+$footer-a: 	      		darken($footer-bg, 35%);
+$footer-a-hover:			darken($footer-bg, 55%);
 
 $rule-color: 					#F0F2F4;
 $code-text:						#c7254e;
