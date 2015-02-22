@@ -53,7 +53,8 @@ $footer-a: 	      		darken($footer-bg, 35%);
 $footer-a-hover:			darken($footer-bg, 55%);
 
 .footer-upper-text {
-  line-height: 4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 0.3rem;
   margin: 0 auto;
   //border: 1px solid red;
 }

@@ -19,7 +19,8 @@
   background-color: #F6F3F1; }
 
 .footer-upper-text {
-  line-height: 4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 0.3rem;
   margin: 0 auto; }
 
 .footer-lower-text {
