@@ -1,7 +1,9 @@
 .blog-header {
 
-    padding-top: 2rem;
+    // manu-addition:
+    padding-top: 0rem;
     padding-bottom: 2rem;
+    // border: 2px solid red;
 
     &.blog-header-image {
         background-size: cover;
@@ -32,9 +34,9 @@
 }
 // manu-addition:
 // Post width
-.post-width {
+.content-width {
 
-    max-width: 52rem;
+    max-width: 60rem;
     margin: 0 auto;
     //border: 2px solid red;
 }

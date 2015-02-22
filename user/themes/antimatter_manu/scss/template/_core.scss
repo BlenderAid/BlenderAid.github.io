@@ -33,10 +33,6 @@ b, strong {
 	#body {
 		padding-left: 0;
 		padding-right: 0;
-		//manu-additions:
-		//width: 50rem;
-		//margin: 0 auto;
-		//
 	}
 	#header, #breadcrumbs, .blog-header, .blog-content-item, .content-wrapper, ul.pagination, #body > .modular-row {
 		@extend .padding-horiz;
@@ -48,7 +44,6 @@ b, strong {
 	@extend .default-animation;
 	@extend .padding-horiz;
 
-	//width: 50rem;
 	background: $page-bg;
 	padding-top: $header-height + $padding-vert;
 	padding-bottom: $footer-height + $padding-vert + 2rem;

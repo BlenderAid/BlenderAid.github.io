@@ -35,7 +35,7 @@
 
 {% endblock head%}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body id="top" class="{{ page.header.body_classes }}" style="background-color:red">
   <!-- manu additions: -->
     <div style="background-color: $base-bg-color;">
         {% block header %}
@@ -58,13 +58,16 @@
         {% block showcase %}{% endblock %}
 
         {% block body %}
-        <section id="body" class="{{ class }}">
+        <!--manu-addition:-->
+        <!-- <section id="body" class="{{ class }}"> -->
+        <section id="body" class="content-width">
             {% block content %}{% endblock %}
         </section>
         {% endblock %}
 
         {% block footer %}
         <footer id="footer">
+          <!--manu-addition:-->
             <!-- <div class="totop">
                 <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
             </div> -->

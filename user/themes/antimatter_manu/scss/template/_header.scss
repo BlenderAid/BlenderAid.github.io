@@ -9,7 +9,7 @@
 	height: $header-height;
 	// manu addition:
 	background-color: rgba(231,229,225,1.0);
-	border-bottom: 1px solid rgba(255,255,255,0.350);
+	border-bottom: 1px solid rgba(255,255,255,0.250);
 	//box-shadow: 0 0.05rem 1rem rgba(0,0,0, 1.0);
 
 	// scroll based changes
@@ -17,7 +17,7 @@
 		height: $header-height - 2rem;
 		// manu addition:
 		background-color: rgba(231,229,225,0.95) !important;
-		border-bottom: 1px solid rgba(255,255,255,0.350);
+		border-bottom: 1px solid rgba(255,255,255,0.250);
 		//box-shadow: 0 0.05rem 1rem rgba(80,60,20,0.35) !important;
 
 		#logo h3 {
@@ -60,6 +60,9 @@
 
 	#navbar {
 		font-size: $core-font-size - 0.1rem;
+		// manu-addition:
+		max-width: 60rem;
+		margin: 0 auto;
 		ul {
 
 			margin: 0;
