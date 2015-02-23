@@ -2,8 +2,8 @@
 title: Keep the scale
 date: 2014-04-07 17:34
 taxonomy:
-    category: Blog
-    tag: [Shading]
+    category: [Shading, Modeling]
+    tag: [Object, Scale, Procedural]
 ---
 When using procedural shaders, it's important to reset the scale of the object if it has been scaled:
 

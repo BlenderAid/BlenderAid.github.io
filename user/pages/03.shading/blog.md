@@ -1,9 +1,9 @@
 ---
-title: User Interface
+title: Shading
 
 content:
     items:
-        @taxonomy.tag: User Interface
+        @taxonomy.category: Shading
     order:
         by: date
         dir: desc
@@ -16,4 +16,3 @@ feed:
 
 pagination: true
 ---
-# User Interface

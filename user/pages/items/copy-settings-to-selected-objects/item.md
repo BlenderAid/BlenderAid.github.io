@@ -2,8 +2,8 @@
 title: Copy settings to selected objects
 date: 2015-02-22 14:06
 taxonomy:
-    category: Blog
-    tag: [User Interface]
+    category: [User Interface]
+    tag: [Objects]
 ---
 *  Select your objects
 *  In your active object go to Display panel and select Bounds

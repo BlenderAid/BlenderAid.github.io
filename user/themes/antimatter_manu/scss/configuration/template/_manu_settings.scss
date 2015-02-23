@@ -15,6 +15,14 @@
 }
 
 
+// Navbar
+
+.manu-navbar {
+  font-size: $core-font-size - 0.1rem;
+  //max-width: 45rem;
+  //margin: 0 auto;
+}
+
 
 
 
@@ -39,8 +47,18 @@ $padding-post: 2rem;
   border-left: 1px solid $post-border-color;
   border-right: 1px solid $post-border-color;
   background-color: $post-bg-color;
-  padding: $padding-post;
-  padding-bottom: -2.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: $padding-post;
+  padding-right: $padding-post;
+
+  // use following, when no tag footer in use:
+  /*
+  margin-bottom: 2rem;
+  border-bottom: 3px solid $post-border-color;
+  border-bottom-left-radius: $border-radius-post;
+  border-bottom-right-radius: $border-radius-post;
+  */
 }
 
 .manu-post-item-img-style {
@@ -48,20 +66,31 @@ display:    block;
 //margin: 0 auto;
 margin-top: 1rem;
 text-align: center;
-border:     1px solid ;
+border:     1px solid $post-border-color;
 -webkit-border-radius: $border-radius-post;
 -moz-border-radius: $border-radius-post;
 border-radius: $border-radius-post;
 }
+/*
+.manu-post-item-img-style {
+    a {
+      border: 1px solid red;
+    }
+    a:hover {
+      border: 1px solid red;
+    }
+}
+*/
 
 .manu-post-item-tag-footer {
   border-bottom: 3px solid $post-border-color;
   border-left: 1px solid $post-border-color;
   border-right: 1px solid $post-border-color;
-  height: 5.7rem;
-  background-color: mix($post-bg-color, $page-bg, $weight:60%);
+  height: 5rem;
+  background-color: mix($post-bg-color, $page-bg, $weight:30%);
   margin-bottom: $padding-vert;
-  padding: $padding-post;
+  padding: 1.5rem;
+  padding-left: $padding-post;
   border-bottom-left-radius: $border-radius-post;
   border-bottom-right-radius: $border-radius-post;
 }
@@ -122,12 +151,12 @@ $footer-a-hover:			darken($footer-bg, 55%);
   color: rgba($footer-text, .8) !important;
 
   a {
-    color: rgba($footer-a, .5) !important;
+    color: rgba($footer-a, .8) !important;
     font-weight: 300;
   }
 
   a:hover {
-    color: rgba($footer-a-hover, .3) !important;
+    color: rgba($footer-a-hover, .9) !important;
     font-weight: 300;
   }
 }

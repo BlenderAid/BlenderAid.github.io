@@ -1,9 +1,9 @@
 ---
-title: Shading
+title: Background
 
 content:
     items:
-        @taxonomy.tag: Shading
+        @taxonomy.tag: Background
     order:
         by: date
         dir: desc
@@ -16,4 +16,3 @@ feed:
 
 pagination: true
 ---
-# Shading

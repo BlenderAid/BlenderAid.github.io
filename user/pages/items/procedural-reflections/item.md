@@ -2,8 +2,8 @@
 title: Procedural reflections
 date: 2014-04-07 17:34
 taxonomy:
-    category: Blog
-    tag: [Shading]
+    category: [Shading]
+    tag: [Procedural, Gradient, Node, Reflection, HDR]
 ---
 For reflective materials something is needed to be reflected. Common and nice looking method is to use an HDR image. However, sometimes a simple gradient node can look nice in reflections. You can sort of 'paint' your reflections with it in real-time, which is cool :)
 

@@ -1,13 +1,13 @@
 ---
-title: Wishes
+title: Materials
 
 content:
     items:
-        @taxonomy.tag: Wishes
+        @taxonomy.category: Materials
     order:
         by: date
         dir: desc
-    limit: 5
+    limit: 
     pagination: true
 
 feed:
@@ -16,4 +16,3 @@ feed:
 
 pagination: true
 ---
-# Wishes

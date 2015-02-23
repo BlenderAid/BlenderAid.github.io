@@ -1,13 +1,13 @@
 ---
-title: .Blends
+title: Rendering
 
 content:
     items:
-        @taxonomy.tag: Blends
+        @taxonomy.category: Rendering
     order:
         by: date
         dir: desc
-    limit: 5
+    limit: 
     pagination: true
 
 feed:
@@ -16,4 +16,3 @@ feed:
 
 pagination: true
 ---
-# .Blends
