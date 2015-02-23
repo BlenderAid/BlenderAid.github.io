@@ -20,4 +20,4 @@ pagination: true
 
 Below you can find a collection of 3D models and materials me and my friends have made and donated for common use.
 
-For quickly throwing around assets in Blender you might want to consider using the **[Asset Flinger Add-on](https://github.com/BlenderAid/Asset-Flinger)** for that. It's pre-packed with most of the 3D model assets from this page.
+For quickly throwing around some assets in Blender you might want to consider using the **[Asset Flinger Add-on](https://github.com/BlenderAid/Asset-Flinger)** for that. It's pre-packed with most of the 3D model assets from this page.
