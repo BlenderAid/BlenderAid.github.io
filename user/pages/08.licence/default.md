@@ -4,7 +4,7 @@ title: License :)
 
 # License
 
-All the content on this page is licended as **CC0**.
+All the content on this BlenderAid.com website is licended as **CC0**.
 That is:
 * Feel free to use it both in non-commercial or commercial productions in any way you wish
 * Feel free to include them into real-time presentations or games etc.
