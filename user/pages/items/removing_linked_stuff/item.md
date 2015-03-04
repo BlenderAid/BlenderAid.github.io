@@ -14,4 +14,5 @@ taxonomy:
 - Save and reopen the .blend again
 - The .blend file is clean :)
 
-[![img](http://i.imgur.com/LSn1Ite.png)](http://i.imgur.com/LSn1Ite.png)
+
+[![img](http://i.imgur.com/dwHwF30.png)](http://i.imgur.com/dwHwF30.png)
