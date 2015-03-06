@@ -1,9 +1,9 @@
 ---
-Title: Render multiple frame ranges at the same time
-Date: 2015-03-06 10:56
-Taxonomy:
-    Category: [Rendering]
-    Tag: [Settings, Camera, Frame]
+title: Render multiple frame ranges at the same time
+date: 2015-03-06 10:56
+taxonomy:
+    category: [Rendering]
+    tag: [Settings, Camera, Frame]
 ---
 Use **[this addon](http://blenderartists.org/forum/showthread.php?281647-Setting-up-batch-render-tasks-%28multiple-sequential-renders)** or the manual method below:
 
