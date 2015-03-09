@@ -7,7 +7,7 @@ taxonomy:
 ---
 
 
-[![img](http://i.imgur.com/WlKdjLe.jpg)](http://i.imgur.com/WlKdjLe.jpg)
+[![img](http://i.imgur.com/Qpai6cF.jpg)](http://i.imgur.com/Qpai6cF.jpg)
 
 
 
