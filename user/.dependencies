@@ -1,0 +1,5 @@
+git:
+    videoembed:
+        url: https://github.com/maximkou/grav-plugin-videoembed.git
+        path: user/plugins/videoembed
+        branch: master
