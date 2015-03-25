@@ -11,7 +11,8 @@ Make a text datablock called *stamp_init.py*:
 
     def stamp_set(scene):
        scene.render.stamp_note_text = \
-           "Samples: {samples}  |  Aperture: {aperture:.4f}  |  Blender {ver}  |  Resolution: {reso_x:.0f} x {reso_y:.0f}  |  ANIM: Jack  |  COMP: John".format(
+           "Samples: {samples}  |  Aperture: {aperture:.4f}  |  Blender {ver}
+             |  Resolution: {reso_x:.0f} x {reso_y:.0f}  |  ANIM: Jack  |  COMP: John".format(
            samples=scene.cycles.samples,
            aperture=scene.camera.data.cycles.aperture_size,
            ver=bpy.app.version_string,
@@ -27,4 +28,4 @@ Make a text datablock called *stamp_init.py*:
 
 You can add more values by checking out the python code from different tooltips.
 
-This tip was found from the (Blender Stack Exchange)[http://blender.stackexchange.com/questions/26643/how-to-show-render-stamp-for-arbitrary-values/26644#26644]
+This tip was found from the [Blender Stack Exchange](http://blender.stackexchange.com/questions/26643/how-to-show-render-stamp-for-arbitrary-values/26644#26644)
